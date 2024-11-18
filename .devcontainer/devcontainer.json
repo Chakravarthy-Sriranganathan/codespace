@@ -1,0 +1,10 @@
+{
+  "name": "MainProject",
+
+  // The order of the files is important since later files override previous ones
+  "dockerComposeFile": ["docker-compose.yml"],
+
+  "service": "builder",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose"
+}
