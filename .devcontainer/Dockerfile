@@ -11,3 +11,4 @@ RUN apt-get -y install clang-tidy cppcheck
 #RUN apt-get -y install software-properties-common
 #RUN add-apt-repository ppa:deadsnakes/ppa -y
 RUN apt-get -y install python3.12 python3.12-dev python3.12-venv
+RUN apt-get -y install googletest
